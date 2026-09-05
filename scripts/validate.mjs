@@ -43,8 +43,6 @@ for (const route of requiredRoutes) {
 }
 
 const requiredAssets = [
-  "louise-hero.webp",
-  "louise-authority.webp",
   "xfoods-logo.png",
   "xfoods-business-logo.png",
   "xfoods-burger.webp",

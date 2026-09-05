@@ -191,19 +191,7 @@ function SalesPage({ hero }: { hero: HeroContent }) {
               </ul>
             </div>
             <div className="hero-visual hero-item">
-              <div className="image-frame">
-                <img
-                  src="/images/louise-hero.webp"
-                  width="900"
-                  height="1350"
-                  alt="Louise Patricio em uma cozinha profissional"
-                  fetchPriority="high"
-                />
-                <div className="image-tag">
-                  <span>Fundadora da XFoods</span>
-                  <strong>Louise Patricio</strong>
-                </div>
-              </div>
+              <div className="image-frame" aria-hidden="true" />
               <div className="orbit-stamp" aria-hidden="true">
                 <span>plant-based</span>
                 <i>sem glúten</i>
@@ -349,10 +337,7 @@ function SalesPage({ hero }: { hero: HeroContent }) {
 
         <section className="authority section-light">
           <div className="container authority-grid">
-            <figure data-reveal>
-              <img src="/images/louise-authority.webp" width="1400" height="933" alt="Louise Patricio em uma cozinha de desenvolvimento da XFoods" loading="lazy" />
-              <figcaption>Louise Patricio, fundadora da XFoods</figcaption>
-            </figure>
+            <div className="authority-placeholder" aria-hidden="true" data-reveal />
             <div className="authority-copy" data-reveal>
               <p className="section-label">Quem conduz</p>
               <h2>Uma foodtech luso-brasileira que trata plant-based como comida, não como concessão.</h2>
