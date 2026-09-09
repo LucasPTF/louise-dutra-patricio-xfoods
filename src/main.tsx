@@ -191,7 +191,19 @@ function SalesPage({ hero }: { hero: HeroContent }) {
               </ul>
             </div>
             <div className="hero-visual hero-item">
-              <div className="image-frame" aria-hidden="true" />
+              <div className="image-frame">
+                <img
+                  src="/images/xfoods-avatar-hero.webp"
+                  width="900"
+                  height="1350"
+                  alt="Personagem fictícia montando um hambúrguer plant-based em uma cozinha profissional"
+                  fetchPriority="high"
+                />
+                <div className="image-tag">
+                  <span>Imagem ilustrativa</span>
+                  <strong>Cozinha plant-based</strong>
+                </div>
+              </div>
               <div className="orbit-stamp" aria-hidden="true">
                 <span>plant-based</span>
                 <i>sem glúten</i>
@@ -337,7 +349,16 @@ function SalesPage({ hero }: { hero: HeroContent }) {
 
         <section className="authority section-light">
           <div className="container authority-grid">
-            <div className="authority-placeholder" aria-hidden="true" data-reveal />
+            <figure className="authority-visual" data-reveal>
+              <img
+                src="/images/xfoods-avatar-kitchen.webp"
+                width="1400"
+                height="933"
+                alt="Personagem fictícia avaliando um prato plant-based em uma cozinha de desenvolvimento"
+                loading="lazy"
+              />
+              <figcaption>Imagem ilustrativa de desenvolvimento culinário plant-based</figcaption>
+            </figure>
             <div className="authority-copy" data-reveal>
               <p className="section-label">Quem conduz</p>
               <h2>Uma foodtech luso-brasileira que trata plant-based como comida, não como concessão.</h2>
